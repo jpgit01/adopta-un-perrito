@@ -1,7 +1,8 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import BadgeUno from './Tags';
 
-function CardUno({img,nombre,descripcion}) {
+
+function CardUno({img,nombre,descripcion,color,texto}) {
   return (
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img} />
@@ -10,7 +11,7 @@ function CardUno({img,nombre,descripcion}) {
         <Card.Text>
           {descripcion}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <BadgeUno ra={color} te={texto}/>
       </Card.Body>
     </Card>
   );

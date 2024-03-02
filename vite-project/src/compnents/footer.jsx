@@ -2,7 +2,7 @@ function Footer() {
 
     return (
       <>
-      <h1>Footer</h1>
+      <h4>Contenido de pie de página</h4>
       </>
     )
   }
