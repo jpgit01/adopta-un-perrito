@@ -2,7 +2,7 @@ function Footer() {
 
     return (
       <>
-      <h4>Contenido de pie de página</h4>
+      <h4>"Adoptar un perro no solo cambia su vida, ¡sino también la tuya! Descubre el amor incondicional y la felicidad que un amigo peludo puede brindarte."</h4>
       </>
     )
   }
