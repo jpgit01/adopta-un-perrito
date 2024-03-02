@@ -4,7 +4,7 @@ import BadgeUno from './Tags';
 
 function CardUno({img,nombre,descripcion,color,texto}) {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card className='m-2' style={{ width: '18rem'}}>
       <Card.Img variant="top" src={img} />
       <Card.Body>
         <Card.Title>{nombre}</Card.Title>

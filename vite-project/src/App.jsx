@@ -1,7 +1,7 @@
 import "./App.css";
-import Header from "./compnents/Header";
-import Footer from "./compnents/Footer";
-import Card from "./compnents/Card";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Card from "./components/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
